@@ -1,0 +1,44 @@
+C:\Users\ASUS\source\repos\Notepad\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\ASUS\source\repos\Notepad\Notepad\bin\Debug\Notepad.exe
+C:\Users\ASUS\source\repos\Notepad\Notepad\bin\Debug\Notepad.pdb
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.Form1.resources
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.exe
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.pdb
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.About.resources
+C:\Users\ASUS\source\repos\Notepad\Notepad\bin\Debug\WebDriver.dll
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.GotoForm.resources
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.csproj.CopyComplete
+C:\Users\ASUS\source\repos\Notepad\Notepad\obj\Debug\Notepad.FindForm.resources
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\Notepad.exe.config
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\Notepad.exe
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\Notepad.pdb
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\WebDriver.dll
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.About.resources
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.FindForm.resources
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.Form1.resources
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.GotoForm.resources
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.CopyComplete
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.exe
+D:\Design Pattern\Giua Ky\51900005-51900043-51900190-51900181-51900190\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.pdb
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\Notepad.exe
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\Notepad.pdb
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\bin\Debug\WebDriver.dll
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.About.resources
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.FindForm.resources
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.Form1.resources
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.GotoForm.resources
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.exe
+C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.pdb
