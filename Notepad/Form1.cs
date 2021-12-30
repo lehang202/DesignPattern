@@ -1,17 +1,10 @@
-﻿using System;
+﻿using Notepad.Memento;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Microsoft.VisualBasic;
-using OpenQA.Selenium.Interactions;
-using System.Windows.Input;
 using System.Drawing.Printing;
+using System.IO;
+using System.Windows.Forms;
 
 namespace Notepad
 {
@@ -23,23 +16,29 @@ namespace Notepad
 
         Stack<string> undoList = new Stack<string>();
 
+        //Memento for Undo,Redo
+        Caretaker caretaker = new Caretaker();
+        Originator originator = new Originator();
+        int savedFile, currentArticle;
+        //
+
         public Form1()
         {
             InitializeComponent();
             disableCopy = new DisableCommand(colorToolStripMenuItem, copyToolStripButton, copyToolStripMenuItem, cutToolStripButton, cutToolStripMenuItem, deleteToolStripMenuItem, toolStripButton1);
             enableCopy = new EnanbleCommand(colorToolStripMenuItem, copyToolStripButton, copyToolStripMenuItem, cutToolStripButton, cutToolStripMenuItem, deleteToolStripMenuItem, toolStripButton1);
-            
+
             disableReplace = new DisableCommand(replaceToolStripMenuItem);
-            
+
             disableUndo = new DisableCommand(undoToolStripMenuItem);
             enableUndo = new EnanbleCommand(undoToolStripMenuItem);
-            
+
             disableFind = new DisableCommand(findToolStripMenuItem);
             enableFind = new EnanbleCommand(findToolStripMenuItem);
-            
+
             disableGoto = new DisableCommand(gotoToolStripMenuItem);
             enableGoto = new EnanbleCommand(gotoToolStripMenuItem);
-            
+
             disableSave = new DisableCommand(saveAsToolStripMenuItem, saveToolStripMenuItem, saveToolStripButton);
             enableSave = new EnanbleCommand(saveAsToolStripMenuItem, saveToolStripMenuItem, saveToolStripButton);
 
@@ -50,6 +49,18 @@ namespace Notepad
             disableGoto.excute();
             disableUndo.excute();
             disableFind.excute();
+
+            //Memento
+            savedFile = 0;
+            currentArticle = 0;
+            //
+            toolStripButton3.Enabled = false;
+            toolStripButton4.Enabled = false;
+            originator.Set(richTextBox1.Text);
+            caretaker.AddMemento(originator.StoreInMemento());
+            savedFile += 1;
+            currentArticle = savedFile;
+            //
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -104,6 +115,7 @@ namespace Notepad
                 File.WriteAllText(saveFileDialog1.FileName, richTextBox1.Text);
             }
             disableSave.excute();
+
         }
 
         private void printToolStripButton_Click(object sender, EventArgs e)
@@ -131,11 +143,12 @@ namespace Notepad
 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(undoList.Count > 1)
+            if (undoList.Count > 1)
             {
                 undoList.Pop();
                 richTextBox1.Text = undoList.Peek();
-            } else
+            }
+            else
             {
                 richTextBox1.Text = "";
             }
@@ -189,6 +202,57 @@ namespace Notepad
             while (index >= 0);
         }
 
+        //undo
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            if (currentArticle >= 1)
+            {
+                currentArticle -= 1;
+                Memento.Memento prev = caretaker.GetMemento(currentArticle);
+                string prevArticle = originator.RestoreFromMemento(prev);
+                richTextBox1.Text = prevArticle;
+                toolStripButton4.Enabled = true;
+            }
+            else
+            {
+                toolStripButton3.Enabled = false;
+            }
+        }
+
+        //redo
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            if (currentArticle < savedFile - 1)
+            {
+                currentArticle += 1;
+                Memento.Memento next = caretaker.GetMemento(currentArticle);
+                string nextArticle = originator.RestoreFromMemento(next);
+                richTextBox1.Text = nextArticle;
+                toolStripButton3.Enabled = true;
+            }
+            else
+            {
+                toolStripButton4.Enabled = false;
+            }
+        }
+
+        private void richTextBox1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == 32)
+            {
+                //Memento Save
+                originator.Set(richTextBox1.Text);
+                caretaker.AddMemento(originator.StoreInMemento());
+                savedFile = caretaker.GetCountOfSavedArticles();
+                currentArticle = savedFile;
+                //
+                if (currentArticle > 0)
+                {
+                    toolStripButton3.Enabled = true;
+                }
+            }
+        }
+
         private void gotoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (GotoForm form = new GotoForm())
@@ -197,10 +261,11 @@ namespace Notepad
                 _input = form.Message;
             }
             int line = Convert.ToInt32(_input);
-            if(line > richTextBox1.Lines.Length)
+            if (line > richTextBox1.Lines.Length)
             {
                 MessageBox.Show("Số dòng muốn tìm lớn hơn số dòng hiện có");
-            } else
+            }
+            else
             {
                 richTextBox1.SelectionStart = richTextBox1.Find(richTextBox1.Lines[line - 1]);
                 richTextBox1.ScrollToCaret();
@@ -217,7 +282,8 @@ namespace Notepad
             }
             findString(find);
         }
-        private void findString(string fint) {
+        private void findString(string fint)
+        {
             int index = 0;
             var temp = richTextBox1.Text;
             richTextBox1.Text = "";
@@ -240,7 +306,7 @@ namespace Notepad
         private void timeDateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string time = DateTime.Now.ToString();
-            richTextBox1.AppendText(" "+time);
+            richTextBox1.AppendText(" " + time);
         }
 
         private void wordWToolStripMenuItem_Click(object sender, EventArgs e)

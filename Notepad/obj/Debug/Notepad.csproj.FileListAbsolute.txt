@@ -42,3 +42,17 @@ C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Pha
 C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
 C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.exe
 C:\Users\stuba\Downloads\51900005-51900043-51900190-51900681-51900690\source\Phan rieng\51900005-NguyenMyAnh\Notepad\Notepad\obj\Debug\Notepad.pdb
+D:\Lesson\Git\DesignPattern\Notepad\bin\Debug\Notepad.exe.config
+D:\Lesson\Git\DesignPattern\Notepad\bin\Debug\Notepad.exe
+D:\Lesson\Git\DesignPattern\Notepad\bin\Debug\Notepad.pdb
+D:\Lesson\Git\DesignPattern\Notepad\bin\Debug\WebDriver.dll
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.About.resources
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.FindForm.resources
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.Form1.resources
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.GotoForm.resources
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.exe
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.pdb
+D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
