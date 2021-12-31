@@ -56,3 +56,18 @@ D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.c
 D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.exe
 D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.pdb
 D:\Lesson\Git\DesignPattern\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\bin\Debug\Notepad.exe.config
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\bin\Debug\Notepad.exe
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\bin\Debug\Notepad.pdb
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\bin\Debug\WebDriver.dll
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.About.resources
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.FindForm.resources
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.Form1.resources
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.GotoForm.resources
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.csproj.CopyComplete
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.exe
+D:\My_File\Mon_Hoc\HK1 2021-2022\MTK\Ck\Notepad\obj\Debug\Notepad.pdb

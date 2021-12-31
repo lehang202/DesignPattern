@@ -236,6 +236,39 @@ namespace Notepad
             }
         }
 
+        //Stategy
+        private void richTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string str = e.KeyChar.ToString();
+            if (str.IndexOfAny(new char[] { '(', '\"', '\'', '{', '<', '[' }) != -1 && richTextBox1.SelectionLength > 0)
+            {
+                Bracket bracket = new Bracket();
+                switch (str)
+                {
+                    case "\"":
+                        bracket.setStrategy(new Quotes());
+                        break;
+                    case "\'":
+                        bracket.setStrategy(new Parentheses());
+                        break;
+                    case "[":
+                        bracket.setStrategy(new SquareBrackets());
+                        break;
+                    case "{":
+                        bracket.setStrategy(new CurlyBrackets());
+                        break;
+                    case "(":
+                        bracket.setStrategy(new RoundBrackets());
+                        break;
+                    case "<":
+                        bracket.setStrategy(new AngleBrackets());
+                        break;
+                }
+                richTextBox1.SelectedText = bracket.doubleBracket(richTextBox1.SelectedText);
+                e.Handled = true;
+            }
+        }
+
         private void richTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyValue == 32)
