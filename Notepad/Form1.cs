@@ -269,6 +269,72 @@ namespace Notepad
             }
         }
 
+        private void setLanguage()
+        {
+            Facade Fac = Facade.getInstance();
+
+            fileToolStripMenuItem.Text = Fac.L_ob.fileToolStripMenuItem;
+            newToolStripMenuItem.Text = Fac.L_ob.newToolStripMenuItem;
+            openToolStripMenuItem.Text = Fac.L_ob.openToolStripMenuItem;
+            saveToolStripMenuItem.Text = Fac.L_ob.saveToolStripMenuItem;
+            saveAsToolStripMenuItem.Text = Fac.L_ob.saveAsToolStripMenuItem;
+            printToolStripMenuItem.Text = Fac.L_ob.printToolStripMenuItem;
+            exitToolStripMenuItem.Text = Fac.L_ob.exitToolStripMenuItem;
+
+            editToolStripMenuItem.Text = Fac.L_ob.editToolStripMenuItem;
+            undoToolStripMenuItem.Text = Fac.L_ob.undoToolStripMenuItem;
+            cutToolStripMenuItem.Text = Fac.L_ob.cutToolStripMenuItem;
+            copyToolStripMenuItem.Text = Fac.L_ob.copyToolStripMenuItem;
+            colorToolStripMenuItem.Text = Fac.L_ob.colorToolStripMenuItem;
+            pasteToolStripMenuItem.Text = Fac.L_ob.pasteToolStripMenuItem;
+            deleteToolStripMenuItem.Text = Fac.L_ob.deleteToolStripMenuItem;
+            gotoToolStripMenuItem.Text = Fac.L_ob.gotoToolStripMenuItem;
+            findToolStripMenuItem.Text = Fac.L_ob.findToolStripMenuItem;
+            replaceToolStripMenuItem.Text = Fac.L_ob.replaceToolStripMenuItem;
+            selectAllToolStripMenuItem.Text = Fac.L_ob.selectAllToolStripMenuItem;
+            timeDateToolStripMenuItem.Text = Fac.L_ob.timeDateToolStripMenuItem;
+
+            formatToolStripMenuItem.Text = Fac.L_ob.formatToolStripMenuItem;
+            wordWToolStripMenuItem.Text = Fac.L_ob.wordWToolStripMenuItem;
+            fontToolStripMenuItem.Text = Fac.L_ob.fontToolStripMenuItem;
+
+            viewToolStripMenuItem.Text = Fac.L_ob.viewToolStripMenuItem;
+            statusBarToolStripMenuItem.Text = Fac.L_ob.statusBarToolStripMenuItem;
+
+            helpToolStripMenuItem.Text = Fac.L_ob.helpToolStripMenuItem;
+            aboutToolStripMenuItem.Text = Fac.L_ob.aboutToolStripMenuItem;
+
+            languageToolStripMenuItem.Text = Fac.L_ob.languageToolStripMenuItem;
+        }
+
+        private void vietNameseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Facade Fac = new Facade();
+            Fac.setFacade(new VietNamese());
+            setLanguage();
+        }
+
+        private void chineseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Facade Fac = new Facade();
+            Fac.setFacade(new Chinese());
+            setLanguage();
+        }
+
+        private void japaneseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Facade Fac = new Facade();
+            Fac.setFacade(new Japan());
+            setLanguage();
+        }
+
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Facade Fac = new Facade();
+            Fac.setFacade(new English());
+            setLanguage();
+        }
+
         private void richTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyValue == 32)

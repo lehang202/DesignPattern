@@ -65,6 +65,7 @@
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
     <Compile Include="CommandBase.cs" />
+    <Compile Include="Facade.cs" />
     <Compile Include="FindForm.cs">
       <SubType>Form</SubType>
     </Compile>
