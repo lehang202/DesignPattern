@@ -86,3 +86,17 @@ F:\IDM download\DesignPattern-main\Notepad\obj\Debug\Notepad.csproj.CoreCompileI
 F:\IDM download\DesignPattern-main\Notepad\obj\Debug\Notepad.csproj.CopyComplete
 F:\IDM download\DesignPattern-main\Notepad\obj\Debug\Notepad.exe
 F:\IDM download\DesignPattern-main\Notepad\obj\Debug\Notepad.pdb
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\bin\Debug\Notepad.exe
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\bin\Debug\Notepad.pdb
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\bin\Debug\WebDriver.dll
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.About.resources
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.FindForm.resources
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.Form1.resources
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.GotoForm.resources
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.exe
+C:\Users\stuba\Downloads\DesignPattern-main\Notepad\obj\Debug\Notepad.pdb
