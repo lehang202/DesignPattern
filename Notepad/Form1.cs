@@ -335,6 +335,12 @@ namespace Notepad
             setLanguage();
         }
 
+        private void paintToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();           
+            frm.Show();
+        }
+
         private void richTextBox1_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyValue == 32)
